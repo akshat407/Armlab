@@ -16,7 +16,7 @@ LOOP
 	LDRH R3,[R1],#02		; READ 16 BIT DATA 
 	ADD R0,R0,R3		   	; ADD R2=R2+R3
 	SUBS R5,R5,#1			; DECREMENT COUNTER
-	CMP R5,#0				
+	CMP R5,#0				                                      vdfgrsgsg
 	BNE LOOP				; LOOK BACK TILL ARRAY ENDS
  	LDR R4,=RESULT		  	; LOADS THE ADDRESS OF RESULT 
 	STR R0,[R4]				; STORES THE RESULT IN R1
